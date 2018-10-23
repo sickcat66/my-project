@@ -24,6 +24,16 @@ module.exports = {
     // allow async-await
     'generator-star-spacing': 'off',
     // allow debugger during development
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
+    'space-before-function-paren': 'off',
+    'eol-last': 'off',
+    // 允许//后的注释没有空格
+    'spaced-comment': 'off',
+    // 允许大括号前有空格
+    'space-before-blocks': 'off',
+    'no-trailing-spaces': 'off',
+    // if语句必须有{
+    'curly': 'off',
+    'block-spacing': 'off'
   }
 }
